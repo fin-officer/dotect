@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "dotect"
-version = "0.1.0"
+version = "0.1.1"
 description = "Document detection and classification for financial documents"
 authors = ["Fin Officer Team"]
 readme = "README.md"
@@ -13,7 +13,7 @@ packages = [{include = "dotect"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 pydantic = "^2.0.0"
-invutil = {path = "../invutil", develop = true}
+invutil = "^0.1.0"
 scikit-learn = "^1.0.0"
 spacy = "^3.0.0"
 transformers = "^4.0.0"
